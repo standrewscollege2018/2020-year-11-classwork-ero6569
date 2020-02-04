@@ -1,0 +1,35 @@
+""" First Phyton Program.  print hello """
+
+# print () funtion produces output 
+# print("Hello world")
+""" This promgram demonstrates how to use varibles to store information 
+and how to print out the value of a varible. """
+
+#print ("hello")
+# varibles should have appropiate names
+name= "Jhon"
+# if there are multiple words in the varible name, use underscores 
+last_name="Smith"
+
+print("Hello", name, last_name)
+
+age= 15
+print("You are", age, "years old")
+
+# when getting imput use the import() funtion 
+# we need to set a variable to store the imput
+fav_animal = imput("What is your favourite aniamal?")
+
+print ("Wrong!", fav_aniaml, "is nnothing compared to the majestic reinturtle")
+
+
+
+
+# we need to 'cast', telling the prgrammer the data type of the imput numer = float(imput("Enter a number: "))
+
+print("If I times this number by two I get", number *2) 
+
+
+
+
+
