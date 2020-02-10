@@ -1,5 +1,6 @@
 """ My Madlib turns words into a wacky story """
 
+#Get the inputs from the player
 print=input("Enter name")
 
 body_parrt = input ("Enter boy part")
@@ -9,6 +10,7 @@ illness = input("Enter illness")
 school_subject = input("Enter subject")
 
 number  = float(input("Enter a number greater than 5"))
+# this saves my story 
 
 Print(" Thinking...here is my madlib")
 
