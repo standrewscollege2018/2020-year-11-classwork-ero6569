@@ -1,4 +1,4 @@
-""" My Madlib """
+""" My Madlib turns words into a wacky story """
 
 print=input("Enter name")
 
