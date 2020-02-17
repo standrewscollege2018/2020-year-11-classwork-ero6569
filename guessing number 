@@ -1,0 +1,24 @@
+""" guess numer """ 
+# set Boolean to true
+#set number
+import random
+num = random.randint(1,10)
+counter = 0
+
+keep_asking = True
+while keep_asking==True:
+    guess= int(input("guess a number"))
+    counter = counter + 1
+    if guess == num:
+        keep_asking=False
+    elif guess < num:
+        print("Too low")
+    else:
+        print("Too high")
+        
+
+
+
+print("That's right")
+
+print("You have guess {} guess*".format(counter))
