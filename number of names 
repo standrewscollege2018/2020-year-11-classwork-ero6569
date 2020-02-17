@@ -1,0 +1,9 @@
+""" this prgrm asks the user to enter how many names to ask for, then asks for a name that number of times """
+# ask how many nmaes you want to enter
+number = int(input("How many names do you want to enter?"))
+ #setting for loop
+ for i in range(0,number):
+ print("Hello ,name")
+
+
+
