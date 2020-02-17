@@ -2,7 +2,7 @@
 # set Boolean to true
 #set number
 import random
-num = random.randint(1,10)
+num = random.randint(1,20)
 counter = 0
 
 keep_asking = True
