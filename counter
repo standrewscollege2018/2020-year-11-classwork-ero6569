@@ -1,8 +1,8 @@
 """ This program gets two mumbers from the user, then counts up from the lower number to the higher, """
 
 number_one = input("Enter a small number")
-number_2 = imput("Enter a large number")
+number_two = imput("Enter a large number")
 
-If counter in range(number_one, number_two + 1, 1):
+for counter in range(number_one, number_two + 1, 1):
     print("counter")
     
