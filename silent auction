@@ -15,8 +15,8 @@ while keep_asking == True:
     try:
         user_name = input("what is your nane?")
         bid = int(input("waht are you willing to pay for this item?"))
-        if bid = -1:
-            keep_asking = False:
+        if bid == -1:
+            while keep_asking == False:
         elif bid > highest_bid:
             print("You are  now the highest bidder!")
             highest_bid = bid
