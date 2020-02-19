@@ -1,0 +1,33 @@
+""" acution item """
+# asking for the seller to name  auction name intem 
+
+auction_item = input("what is the item that you are putting up for auction?")
+auction_reserve = int(input("what is the reserve pirce"))
+higest_bid = 0
+highest_name - ""
+  #asking for user name and price you are willing to pay
+# set while loop
+
+# set up Boolean 
+keep_asking
+while keep_asking == True:
+
+    try:
+        user_name = input("what is your nane?")
+        bid = int(input("waht are you willing to pay for this item?"))
+        highest_bid = print("The hoighest is now ")
+            if bid >= highest_bid
+           print("You are  now the highest bidder!")
+    
+        elif bid < highest_bid:
+            print("The highest bid is {} with a bid of ${}", format(highest_bid))
+            
+            
+            
+    
+    
+    
+
+
+
+
