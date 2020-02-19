@@ -1,0 +1,19 @@
+# set up Bollea to keep asking 
+while keep_asking ==True:
+
+try:
+    number = int(input("Enter a number"))
+    print("Thanks!")
+    keep_asking = False
+    
+ except:
+      print("That's not a number!")
+      
+      
+      
+      
+      
+      
+      
+print("You have guess {} guess*".format(counter))
+      
