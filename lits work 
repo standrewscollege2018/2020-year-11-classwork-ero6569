@@ -1,0 +1,10 @@
+""" this program demonstraights how a list works, including how to price, change and append items """
+
+fruit = ["Apples, "Oranges", "Kiwifruit", "Bannanas"]
+
+
+# To print an item from alist, we use the name of the list and its index (which starts at 0)
+print(fruit[-1])
+
+
+prime_numbers =[2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
