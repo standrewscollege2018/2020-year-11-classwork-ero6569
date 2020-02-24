@@ -1,0 +1,26 @@
+""" movie list  """
+
+movies = []
+
+# start loop to ask for three movies
+for i in range (0,3):
+    movie_name=input("Please enter the name of a favourite movie")
+    movies.append(movie_name)  
+    
+    
+print(movies)
+ 
+    
+
+   
+    
+
+
+
+
+
+
+
+
+
+    
