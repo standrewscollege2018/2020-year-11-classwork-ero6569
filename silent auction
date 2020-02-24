@@ -17,7 +17,7 @@ while keep_asking == True:
         bid = int(input("waht are you willing to pay for this item?"))
         if bid == -1:
             while keep_asking == False:
-        elif bid > highest_bid:
+        elif bid >= highest_bid:
             print("You are  now the highest bidder!")
             highest_bid = bid
             highest_name = user_name
