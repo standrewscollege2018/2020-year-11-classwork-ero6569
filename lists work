@@ -1,0 +1,26 @@
+""" this program demonstraights how a list works, including how to price, change and append items """
+
+fruit = ["Apples", "Oranges", "Kiwifruit", "Bananas"]
+
+
+# To print an item from alist, we use the name of the list and its index (which starts at 0)
+print(fruit[3])
+# you can print out the entire list
+print(fruit)
+#lens(list()) gives the number of items in the list
+print(len(fruit))
+
+# to change an item, just use its index and set it directly 
+fruit[0] = "Mago"
+print(fruit)
+# To insert an item at a specfic location, use insert()
+fruit.insert(0, "Apples")
+print(fruit)
+# often it's easier to just add a new item to the end of list
+# to do this, we use append()
+fruit.append("Guava")
+print(fruit)
+
+
+
+
