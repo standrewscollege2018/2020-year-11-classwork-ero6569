@@ -1,16 +1,26 @@
 # set up list to save movies
 movies = []
 
-keep_asking = True:
+keep_asking = True
 
 while keep_asking == True:
-    movie_name = input("Enter a favourite movie: ")
-    if movie_name == "stop"
-    keep_asking = False:
-    else: 
-        moies.append(movie_name)
-        
+    movie_name = input("Enter a favourite movie:")
+    if movie_name == "stop":
+        keep_asking = False
+    else:
+        movies.append(movie_name)
+
+# print entire list        
 print(movies)
+
+# print each item on a new line
 #loop through list ad display the movies
 for movie in movies:
-print(movie)
+    print(movie)
+
+# loop through list and produce a numbered list of ideas
+for i in range(len(movies)):
+    print(i+1, movies[i]) 
+
+
+    
