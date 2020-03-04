@@ -1,16 +1,22 @@
 """ raffle """
 
 print("welcome to the raffle")
+#get name
 raffle = []
+import random 
+stop_options = ["end", "stop"]
+# getting input from user
 raffle_item = input("Enter the raffle item:")
 while_item = int(input("Enter value of the raffle item: "))
 keep_asking = True 
 while keep_asking == True:
     name = input("Enter name for the raffle :")
-    if name  == "End":
+    if name.longer() in stop_options 
        keep_asking == False
     else:
-         names.append(name)
-     
-    
+      names.append(name)
+# getting the winner using random.randint          
+winner = ramdom.randint(0,len(names)-1)
+  
+print("Congrats, you won the {}".format(names[winner], raffle_item))  
     
